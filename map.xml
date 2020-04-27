@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE vymmap>
+
+<vymmap  version="2.6.11" author="unknown user" title="" comment="" date="2020-02-23" branchCount="18" backgroundColor="#ffffff" defaultFont="Cantarell,16,-1,5,50,0,0,0,0,0" selectionColor="#ffff00" linkStyle="StylePolyParabel" linkColor="#0000ff" defXLinkColor="#3232ff" defXLinkWidth="1" defXLinkPenStyle="Qt::DashLine" defXLinkStyleBegin="HeadFull" defXLinkStyleEnd="HeadFull" mapZoomFactor="1" mapRotationAngle="0">
+    <mapcenter absPosX="0" absPosY="0" hideLink="false" uuid="{53b52e5c-3e37-483d-9a9e-fdb7421033a8}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Evading IDS</heading>
+        <frame  frameType="Rectangle" penColor="#000000" brushColor="#ffffff" padding="0" borderWidth="1" />
+        <branch relPosX="147.387" relPosY="-133.386" hideLink="false" uuid="{a259dcd2-8bfc-44c5-8ed0-7ec1f4ee353a}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Insertion attack</heading>
+            <branch hideLink="false" uuid="{02e70f79-d791-45a4-9857-cf47c0c29230}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">TTL reachs IPS and not Host</heading>
+            </branch>
+            <branch hideLink="false" uuid="{15c217c2-9dcd-47d5-8282-0e02d8f68b37}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Add a string with a wrong checksum that will be accepted by the IDS and not the host</heading>
+            </branch>
+        </branch>
+        <branch relPosX="115.032" relPosY="91.3265" hideLink="false" uuid="{5e2e1cd9-71a9-4d95-acdf-d265f34ebd0a}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">DOS</heading>
+        </branch>
+        <branch relPosX="-134.35" relPosY="134.35" hideLink="false" uuid="{db3bf009-a098-41c0-8024-39687029dbb2}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Evasion</heading>
+        </branch>
+        <branch relPosX="-259.968" relPosY="-106.498" hideLink="false" uuid="{34a388cc-68bb-4c1d-b2d0-0035c1c0aec0}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Obfuscation</heading>
+        </branch>
+        <branch relPosX="189.205" relPosY="-32.569" hideLink="false" uuid="{7d199c57-c63b-4d7c-8e43-475efc674ebd}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">False positive generation</heading>
+        </branch>
+        <branch relPosX="136.585" relPosY="162.847" hideLink="false" uuid="{d684ebf8-281a-493d-8dfe-5e253e4eb894}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Session splicing</heading>
+        </branch>
+        <branch relPosX="-175.537" relPosY="72.7099" hideLink="false" uuid="{12919c1b-8535-4b6f-b3cf-2a5c43f035f5}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Unicode evasion</heading>
+        </branch>
+        <branch relPosX="-161.233" relPosY="-158.905" hideLink="false" uuid="{9e681a2e-7ae7-417c-b0e0-832b5f5ac199}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Fragmentation attack</heading>
+        </branch>
+        <branch relPosX="182.883" relPosY="4.14224" hideLink="false" uuid="{7ba0048d-6f5f-485c-8b40-7aedec3f99ab}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">TTL attacks</heading>
+        </branch>
+        <branch relPosX="-342.064" relPosY="-38.6535" hideLink="false" uuid="{e389aa3a-b876-455d-8cba-be074d6486ef}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Invalid RST packets</heading>
+        </branch>
+        <branch relPosX="-190" relPosY="1.16341e-13" hideLink="false" uuid="{560c60f4-1f5f-4095-b45e-95833927a43a}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Urgent flag</heading>
+        </branch>
+        <branch relPosX="121.469" relPosY="-227.216" hideLink="false" uuid="{e9667bfa-d762-4b8d-ad32-3024d1fac65a}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Polymorphic shellcode</heading>
+        </branch>
+        <branch relPosX="175.537" relPosY="72.7099" hideLink="false" uuid="{87f01f6c-58c9-4db1-8daf-1029c87fb7ec}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">ASCII Shellcode</heading>
+        </branch>
+        <branch relPosX="-84.9338" relPosY="176.432" hideLink="false" uuid="{6c345487-5a22-44c3-aad7-25f549d617d6}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Application layer attacks</heading>
+        </branch>
+        <branch relPosX="121.764" relPosY="-81.2786" hideLink="false" uuid="{1725452c-64a6-48c8-9fae-1bbe9110e8ac}"><heading  textMode="plainText"  fonthint="undef"  textColor="#000000">Desynchronization</heading>
+        </branch>
+    </mapcenter>
+    <select>mc:0,bo:14</select>
+</vymmap>
